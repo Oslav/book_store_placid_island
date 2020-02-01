@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Girassol|Special+Elite|Tangerine|Zilla+Slab&display=swap');
+
+:root {
+    --main-color: #201d1d;
+    font-family: 'Special Elite', sans-serif;
+}
+
+body {
+    max-width: 980px;
+    margin: auto;
+    background: #201d1d;
+}
+
+h1, h2, p, section, header, main,
+footer {
+    margin: 0;
+    padding: 0;
+}
+header nav h1 a {
+    font-family: 'Girassol', cursive;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: none;
+    color: #92d36e;
+}
+header nav .header_bar {
+    display: flex;
+    flex: 1;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-around;
+}
+header nav .header_bar a {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 5px;
+    color: #92d36e;
+}
+header nav .header_bar a:hover {
+    animation-name: header_bar_animation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    }
+@keyframes header_bar_animation {
+    from {
+  color: #92d36e;
+    }
+    to {
+    color: white; 
+    }
+}
+footer h2 {
+    font-family: 'Girassol', cursive;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #92d36e;
+}
+footer .footer_bar, footer p {
+    display: flex;
+    flex: 1;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-around;
+}
+footer .footer_bar a, footer p {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 5px;
+    color: #92d36e;
+    font-size: 0.7rem;
+}
+footer .footer_bar a:hover {
+    animation-name: footer_bar_animation;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    }
+@keyframes footer_bar_animation {
+    from {
+  color: #92d36e;
+    }
+    to {
+    color: white; 
+    }
+}
+@media (min-width: 800px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+}  
+header section {
+    background-image: url(../img/sinking_man_800px.jpg);
+    min-height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: images_fading 16s infinite;
+}
+
+main h2, .description_section {
+    font-family: 'Girassol', cursive;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #92d36e;
+}
+section h2 {
+    font-family: 'Girassol', cursive;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: #92d36e;
+}
+.description_section {
+    font-family: 'Tangerine', cursive;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color: #92d36e;   
+}
+.preview_stories_block {
+    display: grid;
+    background-color: #cbe8ba;
+    margin: 5px;
+    max-width: 300px;
+
+}
+@media (min-width: 660px) {
+   main .preview_stories_block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+
