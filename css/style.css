@@ -20,22 +20,21 @@ footer {
 header nav h1 a {
     font-family: 'Girassol', cursive;
     font-size: 4rem;
-    text-align: center;
     text-decoration: none;
     color: #92d36e;
+}
+header nav h1 {
+margin-top: -15px;
 }
 header nav .header_bar {
     display: flex;
     flex: 1;
-    padding: 0;
     list-style-type: none;
     justify-content: space-around;
 }
 header nav .header_bar a {
     text-transform: uppercase;
     text-decoration: none;
-    border: 1px solid transparent;
-    padding: 5px;
     color: #92d36e;
 }
 header nav .header_bar a:hover {
@@ -100,7 +99,6 @@ header section {
     display: flex;
     align-items: center;
     justify-content: center;
-    animation: images_fading 16s infinite;
 }
 
 main h2, .description_section {
@@ -124,17 +122,19 @@ section h2 {
     text-decoration: none;
     color: #92d36e;   
 }
-.preview_stories_block {
-    display: grid;
+.torrent_data {
+    display: flex;
+    flex-flow: row wrap;
     background-color: #cbe8ba;
-    margin: 5px;
-    max-width: 300px;
+    margin: 15px;
+    max-width: 95%;
 
 }
 @media (min-width: 660px) {
    main .preview_stories_block {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
     }
 }
 
