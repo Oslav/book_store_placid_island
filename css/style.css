@@ -7,9 +7,10 @@
 }
 
 body {
-    max-width: 980px;
+    max-width: 1100px;
     margin: auto;
     background: #201d1d;
+    box-shadow: 0px 14px 32px 0px rgba(146, 211, 110, 0.1);
 }
 
 h1, h2, p, section, header, main,
@@ -24,7 +25,8 @@ header nav h1 a {
     color: #92d36e;
 }
 header nav h1 {
-margin-top: -15px;
+margin-top: -10px;
+margin-left: 15px;
 }
 header nav .header_bar {
     display: flex;
@@ -123,17 +125,17 @@ section h2 {
     color: #92d36e;   
 }
 .wrapper {
-  height: 420px;
-  width: 654px;
+  height: 320px;
+  width: 554px;
   margin: 50px auto;
   border-radius: 7px 7px 7px 7px;
-  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(146, 211, 110, 0.4);
 }
 
 .story-img {
   float: left;
-  height: 420px;
-  width: 327px;
+  height: 320px;
+  width: 227px;
 }
 
 .story-img img {
@@ -142,15 +144,15 @@ section h2 {
 
 .story-info {
   float: left;
-  height: 420px;
-  width: 327px;
+  height: 320px;
+  width: 227px;
   border-radius: 0 7px 10px 7px;
   background-color: RGBA(146,211,110, 0.9)
 }
 
 .story-text {
-  height: 300px;
-  width: 327px;
+  height: 200px;
+  width: 227px;
 }
 
 .story-text h3 {
@@ -205,13 +207,6 @@ section h2 {
   color: #474747;
 }
 
-span {
-  display: inline-block;
-  height: 50px;
-  font-family: 'Suranna', serif;
-  font-size: 34px;
-}
-
 .story-read-btn button {
   float: right;
   display: inline-block;
@@ -236,11 +231,10 @@ span {
 .story-read-btn button:hover {
   background-color: lightslategray;
 }
-
-@media (min-width: 660px) {
-   main .preview_stories_block {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+   main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     }
-}
+
 
