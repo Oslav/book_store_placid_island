@@ -8,18 +8,24 @@
 body {
     background: #201d1d;
 }
-.navbar, .navbar-expand-lg {
+.navbar{
     font-family: 'Girassol', cursive;
-    text-decoration: none;
 }
 h1, h2, h3, h4, h5, h6, a{
     color: #92d36e;
-
 }
-#navbar-id{
+.header-flex nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
+}
+.navbar-collapse{
+    flex-grow:unset;
+}
+.clock-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 h5{
     font-family: Special Elite;
@@ -95,7 +101,19 @@ form .btn-primary{
     color: #92d36e;
 
 }
-
+.buy-button, .btn-secondary, .btn-primary{
+    color: #92d36e;
+       background: rgba(52,58,64, 1);
+    border-radius: 5px;
+    border: 2px solid #92d36e;
+}
+.modal-body{
+    color: #92d36e;
+}
+.modal-content {
+    background: rgba(52,58,64, 1);
+    box-shadow: 0px 14px 32px 0px rgba(146, 211, 110, 0.2);
+}
 #form-open-btn{
 
     font-family: 'Special Elite', cursive;
