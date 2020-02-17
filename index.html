@@ -11,7 +11,7 @@
     <body>
     <section class="container main-block">
         <header class="container">
-<nav class="navbar navbar-expand-md navbar-light" >
+<nav class="navbar navbar-expand-md navbar-light" id="navbar-id">
   <a class="logo" href="index.html" id="links-color">Placid Island</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPlacidIsland" aria-controls="navbarPlacidIsland" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -139,11 +139,11 @@
         <form action="https://formspree.io/xzbrlbdq" method="post" id="book-form" class="collapse" target="corrupyed@gmail.com">
   <div class="form-row">
   <div class="form-group col-md-6">
-      <label for="inputAuthorName">Your Name</label>
+      <label for="inputNickname">Your Name</label>
       <input type="text" name="author" class="form-control" id="inputNickname" required placeholder="Nickname">
     </div>
     <div class="form-group col-md-6">
-      <label for="inputAuthorName">E-mail</label>
+      <label for="inputEmail">E-mail</label>
       <input type="email" name="e-mail" class="form-control" id="inputEmail" required placeholder="E-mail">
     </div>
     <div class="form-group col-md-6">
@@ -183,8 +183,8 @@
       </select>
     </div>
       <div class="form-group col-md-6">
-      <label for="inputState">Under Nonfiction Category Books Genre</label>
-      <select id="inputState" name="genre-r" class="form-control" required >
+      <label for="inputState-r">Under Nonfiction Category Books Genre</label>
+      <select id="inputState-r" name="genre-r" class="form-control" required >
         <option selected>Biography/Autobiography</option>
         <option>Essay</option>
         <option>Memoir</option>
@@ -199,8 +199,8 @@
     </div>
     </div>
         <div class="form-group container">
-      <label for="inputAuthorName">Comment</label>
-      <textarea type="text" name="comment" class="form-control" id="inputEmail" required placeholder="..."></textarea>
+      <label for="inputComment">Comment</label>
+      <textarea type="text" name="comment" class="form-control" id="inputComment" required placeholder="..."></textarea>
     </div>
   <button type="submit" class="btn btn-primary">Send Your Choise</button>
   
