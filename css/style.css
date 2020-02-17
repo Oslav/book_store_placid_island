@@ -2,20 +2,117 @@
 @import url('https://fonts.googleapis.com/css?family=Cinzel|Girassol|Special+Elite|Tangerine|Zilla+Slab&display=swap');
 
 :root {
-    --main-color: #201d1d;
     font-family: 'Special Elite', sans-serif;
 }
 
 body {
     background: #201d1d;
-    box-shadow: 0px 14px 32px 0px rgba(146, 211, 110, 0.1);
 }
-
 .navbar, .navbar-expand-lg {
     font-family: 'Girassol', cursive;
     text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, a{
     color: #92d36e;
-    background: 
+
+}
+h5{
+    font-family: Special Elite;
+    font-size: 1.5em;
+}
+.card {
+   background: rgba(52,58,64, 0.6);
+}
+.card-text{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: #92d36e;
+    
+}
+.pantheon{
+   width: 100%;
+   border-radius: 15px;
+   box-shadow: 0px 14px 32px 0px rgba(146, 211, 110, 0.2);
+}
+.main-block{
+background: rgba(52,58,64, 0.3);
+margin-top: 15px;
+padding: auto;
+border-radius: 15px;
+}
+#links-color {
+color: #92d36e;
+}
+p .buy-button{
+    float: right;
+    font-family: 'Special Elite', cursive;
+    background: rgba(52,58,64, 1);
+    border-radius: 5px;
+    border: 2px solid #92d36e;
+    margin-top: 10px;
+}
+hr {
+background-color:#92d36e;
+}
+label {
+    color:#92d36e;
+}
+
+.card-body p {
+    color: rgba(146,211,110, 0.6);
+}
+.logo {
+    font-size: 2em;
+}
+#navbarDropdown {
+color: #92d36e;
+}
+.navbar-toggler:hover {
+box-shadow: 0px 14px 32px 0px rgba(146, 211, 110, 0.2);
+}
+.form-control {
+    background: rgba(52,58,64, 0.5);
+    border: 1px solid #92d36e;
+    color: #92d36e;
+}
+option {
+    color:#92d36e;
+    background: rgba(52,58,64, 1);
+}
+form .btn-primary{
+    float: right;
+    background: rgba(52,58,64, 1);
+    border-radius: 5px;
+    border: 2px solid #92d36e;
+    margin-top: 10px;
+    color: #92d36e;
+
+}
+
+#form-open-btn{
+
+    font-family: 'Special Elite', cursive;
+    font-size: 2em;
+    background: rgba(52,58,64, 1);
+    border-radius: 5px;
+    border: 2px solid #92d36e;
+    margin-top: 10px;
+    color: #92d36e;
+
+}
+
+#test {
+    margin-top: 85px;
+
+}
+.dropdown-menu{
+    background: rgba(52,58,64, 0.5);
+}
+.dropdown-item:hover {
+background: rgba(52,58,64, 0.5);
+box-shadow: 0px 14px 32px 0px rgba(146, 211, 110, 0.1);
 }
 footer .footer_bar, footer p {
     display: flex;
@@ -24,6 +121,23 @@ footer .footer_bar, footer p {
     list-style-type: none;
     justify-content: space-around;
 }
+.story-style{
+    font-family: 'Special Elite', cursive;
+    background: rgba(90, 92, 95, 0.5);
+    color: black;
+    border-radius: 15px;
+}
+.story-block{
+background: rgba(52,58,64, 1);
+  background-image: url(/img/story_background.jpg);
+    background-size:auto;
+    font-size: 1em;
+    font-weight: 700;
+}
+.story-body{
+background-image: url(/img/story_background_main.jpg);
+  position:static;
+}
 footer .footer_bar a, footer p {
     text-transform: uppercase;
     text-decoration: none;
@@ -31,6 +145,12 @@ footer .footer_bar a, footer p {
     padding: 5px;
     color: #92d36e;
     font-size: 0.7rem;
+}
+#description_section {
+    text-transform: initial;
+    font-family: 'Tangerine';
+    color: #92d36e;
+    font-size: 1.5rem;
 }
 footer .footer_bar a:hover {
     animation-name: footer_bar_animation;

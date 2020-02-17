@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Girassol|Special+Elite|Tangerine|Zilla+Slab&display=swap');
+
+body {
+   background-image: url(/img/story_background_main.jpg);
+  position:static;
+}
+.navbar, .navbar-expand-lg {
+    font-family: 'Girassol', cursive;
+    text-decoration: none;
+     font-size: 2em;
+    
+}
+h1, h2, h3, h4, h5, h6, a{
+    color: black;
+}
+h5{
+    font-family: "Special Elite";
+    font-size: 1.5em;
+}
+a:hover{
+    text-decoration: none;
+    color: black;
+    
+}
+.main-block{
+background-image: url(/img/story_background.jpg);
+margin-top: 15px;
+padding: auto;
+box-shadow: 0px 14px 32px 0px rgba(146, 211, 110, 0.2);
+border-radius: 15px;
+}
+#links-color {
+color: black;
+}
+hr {
+background-color: black;
+}
+.logo {
+    font-size: 2em;
+}
+#navbarDropdown {
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.navbar-toggler:hover {
+box-shadow: 0px 14px 32px 0px rgba(146, 211, 110, 0.2);
+}
+#test {
+    margin-top: 85px;
+
+}
+.dropdown-menu{
+    background: rgba(52,58,64, 0.5);
+}
+.dropdown-item:hover {
+background: rgba(52,58,64, 0.5);
+box-shadow: 0px 14px 32px 0px rgba(146, 211, 110, 0.1);
+}
+footer .footer_bar, footer p {
+    display: flex;
+    flex: 1;
+    padding: 0;
+    list-style-type: none;
+    justify-content: space-around;
+    color: black;
+        font-weight: 500;
+}
+.story-style{
+    font-family: 'Special Elite', cursive;
+    background: rgba(90, 92, 95, 0.2);
+    color: black;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 1.3em;
+}
+footer .footer_bar a, footer p {
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 5px;
+    color: black;
+    font-size: 0.9rem;
+}
+#description_section {
+    text-transform: initial;
+    font-family: 'Tangerine';
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+main h2, .description_section {
+    font-family: 'Girassol', cursive;
+    text-align: center;
+    text-decoration: none;
+     color: black;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+section h2 {
+    font-family: 'Girassol', cursive;
+    text-align: center;
+    text-decoration: none;
+       color: black;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.description_section {
+    font-family: 'Tangerine', cursive;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 500;
+}
